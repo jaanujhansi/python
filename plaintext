@@ -1,0 +1,34 @@
+score = 0
+print("Welcome to Quiz Game")
+answer = input("1. What is the capital of India? ")
+if answer.lower() == "delhi":
+    print("Correct Answer")
+    score += 1
+else:
+    print("Wrong Answer")
+answer = input("2. How many days are there in a week? ")
+if answer == "7":
+    print("Correct Answer")
+    score += 1
+else:
+    print("Wrong Answer")
+answer = input("3. What is 5 + 5? ")
+if answer == "10":
+    print("Correct Answer")
+    score += 1
+else:
+    print("Wrong Answer")
+answer = input("4. Which programming language are you learning")
+if answer.lower() == "python":
+    print("Correct Answer")
+    score += 1
+else:
+    print("Wrong Answer")
+answer = input("5. What color is the sky? ")
+if answer.lower() == "blue":
+    print("Correct Answer")
+    score += 1
+else:
+    print("Wrong Answer")
+print("Quiz Finished")
+print("Your Score is:", score, "/5")
